@@ -18,10 +18,10 @@ import javax.xml.bind.annotation.XmlRootElement;
  * @author Portatil
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlRootElement(name="agenda")
+@XmlRootElement(name="Agenda")
 public class Agenda implements Serializable{
     
-    @XmlElement(name = "persona")
+    @XmlElement(name = "Persona")
     ArrayList<Persona> personas;
 
     public Agenda() {
