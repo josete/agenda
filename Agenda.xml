@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<agenda>
+    <persona>
+        <nombre>Rafa</nombre>
+        <telefono>5612653</telefono>
+        <email>hola@h.com</email>
+        <bloqueado>false</bloqueado>
+    </persona>
+</agenda>
