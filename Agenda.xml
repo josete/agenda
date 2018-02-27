@@ -5,11 +5,16 @@
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT telephone (#PCDATA)>
 <!ELEMENT email (#PCDATA)>
-]>
+ ]>
 <Agenda>
     <Persona>
-        <name>ads</name>
-        <telephone>564</telephone>
-        <email>asd</email>
+        <name>Jose</name>
+        <telephone>65654</telephone>
+        <email>dsxfsd</email>
+    </Persona>
+    <Persona>
+        <name>Francisco</name>
+        <telephone>545465</telephone>
+        <email>adasd</email>
     </Persona>
 </Agenda>

@@ -12,6 +12,7 @@ import java.util.logging.Logger;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import jdk.nashorn.internal.ir.BreakNode;
 import org.w3c.dom.Document;
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXException;
@@ -31,16 +32,15 @@ public class ValidadorXML {
             builder.setErrorHandler(new ErrorHandler() {
                 @Override
                 public void error(SAXParseException exception) throws SAXException {
-                    // do something more useful in each of these handlers
-                    exception.printStackTrace();
+                    System.err.println("El documento no es correcto");
                 }
                 @Override
                 public void fatalError(SAXParseException exception) throws SAXException {
-                    exception.printStackTrace();
+                    System.err.println("El documento no es correcto");
                 }
                 @Override
                 public void warning(SAXParseException exception) throws SAXException {
-                    exception.printStackTrace();
+                    
                 }
             });
             Document doc = builder.parse(documento);
