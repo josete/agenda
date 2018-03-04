@@ -17,4 +17,14 @@
         <telephone>545465</telephone>
         <email>adasd</email>
     </Persona>
+    <Persona>
+        <name>Juanan</name>
+        <telephone>123456789</telephone>
+        <email>jasd</email>
+    </Persona>
+    <Persona>
+        <name>Juanan</name>
+        <telephone>123456789</telephone>
+        <email>asd@asd.com</email>
+    </Persona>
 </Agenda>
