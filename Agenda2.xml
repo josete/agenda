@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE Agenda [ 
+<!ELEMENT Agenda (Persona)*> 
+<!ELEMENT Persona (name,telephone,email)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+ ]>
+<Agenda>
+    <Personas>
+        <name>Jose</name>
+        <telephone>65654</telephone>
+        <email>dsxfsd</email>
+    </Personas>
+    <Persona>
+        <name>Francisco</name>
+        <telephone>545465</telephone>
+        <email>adasd</email>
+    </Persona>
+    <Persona>
+        <name>Juanan</name>
+        <telephone>123456789</telephone>
+        <email>jasd</email>
+    </Persona>
+    <Persona>
+        <name>Juanan</name>
+        <telephone>123456789</telephone>
+        <email>asd@asd.com</email>
+    </Persona>
+    <Persona>
+        <name>kdjffjik</name>
+        <telephone>123456789</telephone>
+        <email>lkjsda@h.com</email>
+    </Persona>
+</Agenda>

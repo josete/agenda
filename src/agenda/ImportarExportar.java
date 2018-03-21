@@ -90,5 +90,10 @@ public class ImportarExportar {
         }
         return null;
     }
+
+    public ValidadorXML getValidador() {
+        return validador;
+    }
+    
     
 }
