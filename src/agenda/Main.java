@@ -37,7 +37,8 @@ public class Main {
         System.out.println("2.  Guardar");
         System.out.println("3.  Exportar persona");
         System.out.println("4.  Importar persona");
-        System.out.println("5.  Salir");
+        System.out.println("5.  Comprobar agenda");
+        System.out.println("6.  Salir");
         int opcion = scanner.nextInt();
         comprobar(opcion);
     }
